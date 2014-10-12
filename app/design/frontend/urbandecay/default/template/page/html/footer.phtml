@@ -26,7 +26,28 @@
 ?>
 <div class="footer-container">
     <div class="footer">
-        <?php echo $this->getChildHtml() ?>
-        <address class="copyright"><?php echo $this->getCopyright() ?></address>
+        <div class="b-footer-divider">
+            <div class="b-footer-column g-fleft">
+                <?php echo $this->getChildHtml('newsletter') ?>
+            </div>
+            <div class="b-footer-column g-fright">
+                <?php echo $this->getChildHtml('customer-service') ?>
+                <?php echo $this->getChildHtml('cms_footer_links_sm') ?>
+            </div>
+
+        </div>
+        <div class="b-footer-content">
+            <div class="b-footer-column g-fleft">
+                <?php echo $this->getChildHtml('cms_footer_about') ?>
+                <?php echo $this->getChildHtml('cms_footer_link') ?>
+            </div>
+            <div class="b-footer-column g-fright">
+                <?php echo $this->getChildHtml('footer_links') ?>
+                <?php echo $this->getChildHtml('cms_footer_links') ?>
+                <address class="copyright"><?php echo $this->getCopyright() ?></address>
+            </div>
+        </div>
+
     </div>
+
 </div>
