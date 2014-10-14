@@ -1304,6 +1304,90 @@ a.button:hover {
     padding: 30px;
   }
 }
+
+/*----------------------------------------------*
+*Inner
+*/
+.inner-container{
+    background: url(../images/bg_inner.jpg) no-repeat;
+    height: 540px;
+    margin: 0 auto;
+    width: 100%;
+    /* width: 1920px; */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+/*----------------------------------------------*
+*Medium
+*/
+
+.medium-container{
+    position: relative;
+    max-width: 1260px;
+    margin: 10px auto;
+}
+
+.medium-container .medium{
+    width: 1122px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.medium-container .cta-image{
+    width: 100%;
+    position: relative;
+    margin: 20px 0 20px;
+}
+
+.medium-container h2{
+    font: 16px/16px "ProximaNova-Bold",sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.medium-container p{
+    max-width: 185px;
+    min-height: 50px;
+    margin: 0 auto 8px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.medium-container .button{
+    font: 13px/22px "ProximaNova-Bold",sans-serif;
+    -moz-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 150ms;
+    -webkit-transition-duration: 150ms;
+    transition-duration: 150ms;
+    background: #fff;
+    border: solid 1px #46166b;
+    color: #46166b;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 21px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.medium-container .button:hover{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #46166b;
+}
+
+/*----------------------------------------------*
+*Footer
+*/
+
 .footer-container {
   padding-top: 0px;
   height: 346px;

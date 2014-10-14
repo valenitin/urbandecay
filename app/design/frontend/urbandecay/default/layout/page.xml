@@ -121,6 +121,11 @@
                 <label>Main Content Area</label>
             </block>
 
+        <block type="page/html_footer" name="inner" as="inner" template="page/html/inner.phtml">
+            </block>
+
+        <block type="page/html_footer" name="medium" as="medium" template="page/html/medium.phtml">
+            </block>
             <block type="core/text_list" name="right" as="right" translate="label">
                 <label>Right Column</label>
             </block>

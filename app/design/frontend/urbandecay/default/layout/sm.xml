@@ -1,0 +1,7 @@
+<reference name="footer">
+    <block type="cms/block" name="affiliates" before="-">
+        <action method="setBlockId">
+            <block_id>footer_links_sm</block_id>
+        </action>
+    </block>
+</reference>
